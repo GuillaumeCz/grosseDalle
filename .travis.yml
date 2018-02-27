@@ -7,3 +7,6 @@ install:
 
 script:
   - flake8 r2c/r2c.py
+
+notification:
+  email: false
