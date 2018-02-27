@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-# test
+import sys
 import datetime
 import requests
 from bs4 import BeautifulSoup
