@@ -1,12 +1,17 @@
 #!/usr/bin/python
 
+import datetime
 import sys
 import requests
 from bs4 import BeautifulSoup
 
-url = 'http://www.r2c-restauration.fr/suggestion-de-la-semaine-s09-2018'
+
+now = datetime.datetime.now()
+week = format(datetime.date(now.year, now.month, now.day).isocalendar()[1], '02d')
+url = 'http://www.r2c-restauration.fr/suggestion-de-la-semaine-s'+week+'-2018'
 req = requests.get(url).text
 soup = BeautifulSoup(req, "lxml")
+
 
 def display_menu():
     menu = ""
