@@ -9,7 +9,8 @@ setup(
   description="Pour ceux qui ont fait et ne peuvent attendre d'etre devant Le Champ de L'étoile pour attiser l'appetit",
   install_requires=[
     'requests',
-    'bs4'
+    'bs4',
+    'lxml'
   ],
   packages=find_packages(),
   entry_points={
