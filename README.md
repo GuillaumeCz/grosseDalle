@@ -12,4 +12,4 @@ Utilisable seulement (et pour le moment) sur Gnu/Linux ;)
 - `python setup.py install`
 
 ## Utilisation
-- `r2c`
+- `gfaim`

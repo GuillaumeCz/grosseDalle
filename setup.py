@@ -15,7 +15,7 @@ setup(
   packages=find_packages(),
   entry_points={
     'console_scripts': [
-      'r2c=r2c.r2c:main'
+      'gfaim=r2c.r2c:main'
     ]
   }
 )
