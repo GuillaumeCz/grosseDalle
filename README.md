@@ -13,3 +13,10 @@ Utilisable seulement (et pour le moment) sur Gnu/Linux ;)
 
 ## Utilisation
 - `gfaim`
+
+
+## contribution
+Juste à titre d'exemple, aucune PR ne peut être acceptée si le code python ne respecte pas flake8
+Pour tester en local : 
+- `chmod +x linter.sh` une seule fois
+- `./linter.sh` Il parle et vous dit si c'est bon ou pas ;)
