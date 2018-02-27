@@ -10,7 +10,8 @@ setup(
   install_requires=[
     'requests',
     'bs4',
-    'lxml'
+    'lxml',
+    'flake8'
   ],
   packages=find_packages(),
   entry_points={
